@@ -11,7 +11,13 @@ function App() {
   }, [dispatch]);
   return (
     <div className="container">
-      <RobotList />
+      <h1>Robots (or not.... ?)</h1>
+      <p>🤖 👾 🎃 👹 👽 🤖</p>
+      <p>🤡 👻 ☠️ 🙀 😹 🤡</p>
+      <p>🥶 💩 🫣 🫥 👁 🤖</p>
+      <div className="container">
+        <RobotList />
+      </div>
     </div>
   );
 }
