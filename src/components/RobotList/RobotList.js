@@ -8,11 +8,11 @@ const RobotsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+`;
+const StyledRobot = styled.div`
   li {
     text-align: center;
   }
-`;
-const StyledRobot = styled.div`
   h2 {
     justify-content: center;
   }
@@ -23,7 +23,6 @@ const StyledRobot = styled.div`
 
 const RobotList = () => {
   const listOfRobots = useSelector((state) => state.robots);
-  console.log(listOfRobots);
   return (
     <ul>
       <RobotsContainer>
